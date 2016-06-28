@@ -6,7 +6,8 @@ var gulp = require('gulp'),
 
 var postcssPlugins = [
 	require('postcss-nested'),
-	require('postcss-import')
+	require('postcss-import'),
+	require('lost')
 ];
 
 gulp.task('styles', function(){
@@ -17,6 +18,7 @@ gulp.task('styles', function(){
 
 gulp.task('watch', function(){
 	gulp.watch('src/styles/**/*.css', ['styles']);
+
 });
 
 gulp.task('connect', function(){
