@@ -5,7 +5,8 @@ var gulp = require('gulp'),
 		postcss = require('gulp-postcss');
 
 var postcssPlugins = [
-	require('postcss-nested')
+	require('postcss-nested'),
+	require('postcss-import')
 ];
 
 gulp.task('styles', function(){
