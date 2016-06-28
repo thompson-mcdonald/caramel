@@ -1,0 +1,19 @@
+{
+  "name": "thompson-mcdonald.github.io",
+  "version": "0.0.1",
+  "description": "Personal site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jacob thompson-mcdonald",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-connect": "^4.1.0",
+    "gulp-postcss": "^6.1.1",
+    "postcss-nested": "^1.0.0"
+  }
+}
