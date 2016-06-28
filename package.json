@@ -1,12 +1,12 @@
 {
-  "name": "thompson-mcdonald.github.io",
+  "name": "caramel",
   "version": "0.0.1",
-  "description": "Personal site",
+  "description": "A basic front-end set up to get you writing code as soon as possible.",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "jacob thompson-mcdonald",
+  "author": "Jacob Thompson-McDonald",
   "license": "ISC",
   "dependencies": {
     "gulp": "^3.9.1"
